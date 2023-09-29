@@ -69,7 +69,7 @@ const SignUpForm = () => {
           value={email}
         />
         <FormInput
-          label="password"
+          label="password (any 6 characters)"
           type="password"
           required
           onChange={handleChange}
