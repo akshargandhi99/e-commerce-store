@@ -72,6 +72,16 @@ const PaymentForm = () => {
     <PaymentFormContainer>
       <FormContainer onSubmit={paymentHandler}>
         <h2>Credit Card Payment: </h2>
+        <h3>
+          Do not use your actual credit card. Instead use the following
+          information to test:
+        </h3>
+        <ul>
+          <li>Card Number: 4242 4242 4242 4242</li>
+          <li>MM/YY: 04/24</li>
+          <li>CVC: 242</li>
+          <li>ZIP: 42424</li>
+        </ul>
         <CardElement />
         <PaymentButton
           isLoading={isProcessingPayment}
@@ -79,6 +89,8 @@ const PaymentForm = () => {
         >
           Pay Now
         </PaymentButton>
+        <br />
+        <br />
       </FormContainer>
     </PaymentFormContainer>
   );
