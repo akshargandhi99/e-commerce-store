@@ -78,7 +78,7 @@ const PaymentForm = () => {
         </h3>
         <ul>
           <li>Card Number: 4242 4242 4242 4242</li>
-          <li>MM/YY: 04/24</li>
+          <li>MM/YY: 05/50 (Any date in the future)</li>
           <li>CVC: 242</li>
           <li>ZIP: 42424</li>
         </ul>
